@@ -1,0 +1,55 @@
+frappe@ppts-virtual-machine:~/bench$ sudo -H pip install -e /home/frappe/bench/
+Obtaining file:///home/frappe/bench
+Collecting Click (from bench===4.1.0)
+  Using cached https://files.pythonhosted.org/packages/fa/37/45185cb5abbc30d7257104c434fe0b07e5a195a6847506c074527aa599ec/Click-7.0-py2.py3-none-any         .whl
+Collecting jinja2 (from bench===4.1.0)
+  Downloading https://files.pythonhosted.org/packages/1d/e7/fd8b501e7a6dfe492a433deb7b9d833d39ca74916fa8bc63dd1a4947a671/Jinja2-2.10.1-py2.py3-none-         any.whl (124kB)
+    100% |¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦| 133kB 843kB/s
+Collecting virtualenv (from bench===4.1.0)
+  Using cached https://files.pythonhosted.org/packages/8b/12/8d4f45b8962b03ac9efefe5ed5053f6b29334d83e438b4fe379d21c0cb8e/virtualenv-16.7.5-py2.py3-         none-any.whl
+Collecting requests (from bench===4.1.0)
+  Downloading https://files.pythonhosted.org/packages/51/bd/23c926cd341ea6b7dd0b2a00aba99ae0f828be89d72b2190f27c11d4b7fb/requests-2.22.0-py2.py3-non         e-any.whl (57kB)
+    100% |¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦| 61kB 6.4MB/s
+Collecting honcho (from bench===4.1.0)
+  Using cached https://files.pythonhosted.org/packages/12/c2/95faf9e062e37f50fb685972692395bef019a554c08447282a81e35bf031/honcho-1.0.1-py2.py3-none-         any.whl
+Collecting python-crontab (from bench===4.1.0)
+  Using cached https://files.pythonhosted.org/packages/a9/f1/96b7d9ad7b591908a5c9b02e4c7c6cb82425da7e2cd0a831815ca196046b/python-crontab-2.3.8.tar.g         z
+Collecting semantic_version (from bench===4.1.0)
+  Using cached https://files.pythonhosted.org/packages/0f/3b/8fee26649a86c71df159ed0ae7ac5f9ac38829bccd8a7404e116f903929b/semantic_version-2.8.2-py2         .py3-none-any.whl
+Collecting GitPython==2.1.11 (from bench===4.1.0)
+  Using cached https://files.pythonhosted.org/packages/fe/e5/fafe827507644c32d6dc553a1c435cdf882e0c28918a5bab29f7fbebfb70/GitPython-2.1.11-py2.py3-n         one-any.whl
+Collecting MarkupSafe>=0.23 (from jinja2->bench===4.1.0)
+  Downloading https://files.pythonhosted.org/packages/fb/40/f3adb7cf24a8012813c5edb20329eb22d5d8e2a0ecf73d21d6b85865da11/MarkupSafe-1.1.1-cp27-cp27m         u-manylinux1_x86_64.whl
+Collecting urllib3!=1.25.0,!=1.25.1,<1.26,>=1.21.1 (from requests->bench===4.1.0)
+  Downloading https://files.pythonhosted.org/packages/e6/60/247f23a7121ae632d62811ba7f273d0e58972d75e58a94d329d51550a47d/urllib3-1.25.3-py2.py3-none         -any.whl (150kB)
+    100% |¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦| 153kB 1.6MB/s
+Collecting certifi>=2017.4.17 (from requests->bench===4.1.0)
+  Downloading https://files.pythonhosted.org/packages/18/b0/8146a4f8dd402f60744fa380bc73ca47303cccf8b9190fd16a827281eac2/certifi-2019.9.11-py2.py3-n         one-any.whl (154kB)
+    100% |¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦| 163kB 5.9MB/s
+Collecting chardet<3.1.0,>=3.0.2 (from requests->bench===4.1.0)
+  Downloading https://files.pythonhosted.org/packages/bc/a9/01ffebfb562e4274b6487b4bb1ddec7ca55ec7510b22e4c51f14098443b8/chardet-3.0.4-py2.py3-none-         any.whl (133kB)
+    100% |¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦| 143kB 6.6MB/s
+Collecting idna<2.9,>=2.5 (from requests->bench===4.1.0)
+  Downloading https://files.pythonhosted.org/packages/14/2c/cd551d81dbe15200be1cf41cd03869a46fe7226e7450af7a6545bfc474c9/idna-2.8-py2.py3-none-any.w         hl (58kB)
+    100% |¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦| 61kB 3.3MB/s
+Collecting python-dateutil (from python-crontab->bench===4.1.0)
+  Using cached https://files.pythonhosted.org/packages/41/17/c62faccbfbd163c7f57f3844689e3a78bae1f403648a6afb1d0866d87fbb/python_dateutil-2.8.0-py2.         py3-none-any.whl
+Collecting gitdb2>=2.0.0 (from GitPython==2.1.11->bench===4.1.0)
+  Using cached https://files.pythonhosted.org/packages/da/30/a407568aa8d8f25db817cf50121a958722f3fc5f87e3a6fba1f40c0633e3/gitdb2-2.0.5-py2.py3-none-         any.whl
+Collecting six>=1.5 (from python-dateutil->python-crontab->bench===4.1.0)
+  Downloading https://files.pythonhosted.org/packages/73/fb/00a976f728d0d1fecfe898238ce23f502a721c0ac0ecfedb80e0d88c64e9/six-1.12.0-py2.py3-none-any         .whl
+Collecting smmap2>=2.0.0 (from gitdb2>=2.0.0->GitPython==2.1.11->bench===4.1.0)
+  Using cached https://files.pythonhosted.org/packages/55/d2/866d45e3a121ee15a1dc013824d58072fd5c7799c9c34d01378eb262ca8f/smmap2-2.0.5-py2.py3-none-         any.whl
+Building wheels for collected packages: python-crontab
+  Running setup.py bdist_wheel for python-crontab ... done
+  Stored in directory: /root/.cache/pip/wheels/23/21/3b/d11fc7e093c6e772c1ac8fefda80753dbe303ee2db96913a03
+Successfully built python-crontab
+Installing collected packages: Click, MarkupSafe, jinja2, virtualenv, urllib3, certifi, chardet, idna, requests, honcho, six, python-dateutil, pytho         n-crontab, semantic-version, smmap2, gitdb2, GitPython, bench
+  Running setup.py develop for bench
+Successfully installed Click-7.0 GitPython-2.1.11 MarkupSafe-1.1.1 bench certifi-2019.9.11 chardet-3.0.4 gitdb2-2.0.5 honcho-1.0.1 idna-2.8 jinja2-2         .10.1 python-crontab-2.3.8 python-dateutil-2.8.0 requests-2.22.0 semantic-version-2.8.2 six-1.12.0 smmap2-2.0.5 urllib3-1.25.3 virtualenv-16.7.5
+You are using pip version 8.1.1, however version 19.2.3 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+frappe@ppts-virtual-machine:~/bench$ cd /home/frappe/bench/
+frappe@ppts-virtual-machine:~/bench$  bench --version
+4.1.0
+frappe@ppts-virtual-machine:~/bench$
